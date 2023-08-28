@@ -6,7 +6,7 @@
         init: function () {
             this.c = document.getElementById("game");
             this.c.width = 900;
-            this.c.height = this.c.height;
+            this.c.height = 300;
             this.ctx = this.c.getContext("2d");
             this.color = "rgba(20,20,20,.7)";
             this.bullets = [];

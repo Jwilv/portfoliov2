@@ -5,9 +5,11 @@ function App() {
 
   return (
     <>
-      <h1 className='title-name'><i>Juan Wilvers</i></h1>
-      <label className='description-home'>Front-End Developer</label>
-      <About /> 
+      <div className="title">
+        <h1 className='title-name'><i>Juan Wilvers</i></h1>
+        <label className='description-home'>Front-End Developer</label>
+      </div>
+      <About />
     </>
   )
 }

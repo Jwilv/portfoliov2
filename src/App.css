@@ -3,12 +3,13 @@
   margin-left: 25px;
   font-size: 90px;
   font-weight: 700;
-  margin-top: 15px;
+  margin-top: -30px;
   margin-bottom: -10px;
 }
 
 .description-home{
-  color: white;
+  color: #4080bf;
   font-size: 37px;
   margin-left: 100px;
+  font-weight: 800;
 }
