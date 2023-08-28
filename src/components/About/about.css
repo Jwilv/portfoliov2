@@ -1,17 +1,22 @@
 .container-about {
     width: 100vw;
-    height: 77vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
+    /* background-color: aqua; */
+    overflow: hidden;
 }
 
 .img-about {
+    margin-top: -20px;
     border-radius: 20px;
-    margin-top: 15px;
+    width: 450px;
+    /* margin-top: 30px; */
 }
 
 .colum-left {
-    margin-top: 18px;
+    margin-left: 10px;
+    margin-top: 30px;
     background-color: transparent;
     width: 600px;
     display: flex;
@@ -26,12 +31,12 @@
 }
 
 .about-desc {
-    margin-top: 60px;
+    margin-top: 10px;
     color: #fff;
     background-color: rgba(28, 26, 26, 0.583);
     border-radius: 20px;
     width: 450px;
-    height: 425px;
+    height: auto;
 }
 
 .desc {
@@ -40,12 +45,12 @@
 }
 
 .about-center {
-    margin-top: 40px;
+    margin-top: 15px;
     color: #fff;
     width: 600px;
-    height: 690px;
+    height: 600px;
     border-radius: 20px;
-    margin-left: -20px;
+    margin-left: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -62,8 +67,8 @@
 }
 
 .about-right {
-    margin-top: 45px;
-    width: 425px;
+    margin-top: 15px;
+    width: auto;
     height: 690px;
     display: flex;
     align-items: center;
@@ -100,7 +105,8 @@
 
 .robot {
     display: flex;
-    margin-left: 40px;
+    margin-left: 10px;
+    margin-right: 30px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -126,12 +132,13 @@
     margin-top: 40px;
     background-color: rgba(28, 26, 26, 0.583);
     height: 150px;
-    width: 373px;
+    width: 325px;
     border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 60px;
+    margin-right: 30px;
 }
 
 .contact i {
@@ -142,10 +149,11 @@
 }
 
 .download-cv {
-    margin-top: 90px;
+    margin-top: 50px;
     background-color: rgba(28, 26, 26, 0.583);
     height: 100px;
-    width: 373px;
+    margin-right: 30px;
+    width: 350px;
     border-radius: 20px;
     display: flex;
     justify-content: center;
