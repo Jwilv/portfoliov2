@@ -4,12 +4,43 @@
     margin: 0 auto;
     background-color: blue;
     display: flex;
-    align-items: center;
+    justify-content: space-around;
+}
+
+.container-proyect{
+    display: flex;
+    flex-direction: column;
 }
 
 .proyect{
     background-color: black;
-    width: 400px;
+    width: 500px;
     height: 300px;
-    margin: 25px;
+    /* margin: 25px;     */
+    margin-top: 0;
+    overflow: hidden;
+}
+
+.proyect img{
+    width: 500px;
+    cursor: pointer;
+}
+
+.title-proyects{
+    background-color: aqua;
+    margin-top: 5px;
+    width: 150px;
+}
+
+.title-proyects p{
+    color: white;
+    font-size: 23px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.container-proyect span{
+    width: 150px;
+    height: 3px;
+    background-color: black;
 }

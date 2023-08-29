@@ -7,7 +7,6 @@ export const Proyects = () => {
         <div className='container-proyects'>
             <Proyect />
             <Proyect />
-            <Proyect />
         </div>
     )
 }
