@@ -1,0 +1,15 @@
+.container-proyects{
+    height: 72vh;
+    width: 90vw;
+    margin: 0 auto;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+}
+
+.proyect{
+    background-color: black;
+    width: 400px;
+    height: 300px;
+    margin: 25px;
+}
